@@ -1,0 +1,6 @@
+pila ejemplo1 {
+    crear([10, 20, 30])!
+    empujar(40)!
+    sacar()!
+    mirar()!
+}

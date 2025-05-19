@@ -1,0 +1,7 @@
+pila pilaPerfecta {
+    crear([100, 200])!
+    empujar(300)!
+    empujar(400)!
+    sacar()!
+    mirar()!
+}

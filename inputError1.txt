@@ -1,0 +1,5 @@
+pila error1 {
+    crear([1, 2, 3])  // Falta el ! aquí
+    empujar(4)! 
+    sacar()!
+}
