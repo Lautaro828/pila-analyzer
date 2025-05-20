@@ -1,0 +1,11 @@
+<programa> ::= "pila" <nombre> "{" <comandos> "}"
+<comandos> ::= { <operación> }*
+<operación> ::= <push> | <pop> | <peek> | <crear>
+<crear> ::= "crear" "(" <lista> ")" "!"
+<push> ::= "empujar" "(" <valor> ")" "!"
+<pop> ::= "sacar" "(" ")" "!"
+<peek> ::= "mirar" "(" ")" "!"
+<valor> ::= <número> | <texto>
+<lista> ::= "[" [<valor> ("," <valor>)* ] "]"
+<número> ::= { <dígito> }+
+<texto> ::= "\"" { <carácter> } "\""
